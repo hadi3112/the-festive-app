@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="imageSliderSlidergroupfourModel" type="com.muhammadsapplication.app.modules.specificitem.data.model.ImageSliderSlidergroupfourModel"/>
+    </data>
+    <View android:background="@color/bluegray_100"
+        android:id="@+id/viewGroupFour"
+        android:layout_height="match_parent" android:layout_width="match_parent"/>
+</layout>

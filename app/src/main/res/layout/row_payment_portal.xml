@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="paymentPortalRowModel" type="com.muhammadsapplication.app.modules.paymentportal.data.model.PaymentPortalRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowloandisburseme"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylewhite_7">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnloandisburseme"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_3pxv"
+            android:layout_marginStart="@dimen/_2pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_weight="0.72" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLoanDisburseme"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{paymentPortalRowModel.txtLoanDisburseme}"
+                style="@style/txtPoppinsregular12" tools:text="@string/msg_loan_disburseme"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtDate"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{paymentPortalRowModel.txtDate}"
+                style="@style/txtPoppinslight12" tools:text="@string/lbl_2022_09_12"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:id="@+id/txtPriceOne"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_11pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_weight="0.28" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{paymentPortalRowModel.txtPriceOne}"
+            style="@style/txtPoppinssemibold16" tools:text="@string/lbl_10_050_00"/>
+    </LinearLayout>
+</layout>

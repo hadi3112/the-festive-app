@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">muhammad_s_application</string>
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <!--TODO ENTER YOUR APP ID BELOW-->
+    <string name="facebook_app_id"/>
+    <!--TODO ENTER YOUR APP ID BELOW (eg: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTER YOUR Client Token BELOW-->
+    <string name="facebook_client_token"/>
+<string name="lbl_continue">Continue</string>
+<string name="lbl_l">L</string>
+<string name="lbl_21_oct">21
+oct</string>
+<string name="lbl_p">P</string>
+<string name="msg_don_t_have_an_a">Don\u2019t have an account?  Sign up</string>
+<string name="msg_confirm_passwor">Confirm password</string>
+<string name="lbl_t">t</string>
+<string name="lbl_suggested">Suggested</string>
+<string name="lbl_transactions">Transactions</string>
+<string name="lbl_sports">Sports</string>
+<string name="lbl_y">Y</string>
+<string name="lbl_loan_balance">Loan Balance</string>
+<string name="msg_already_have_an">Already have an account?  Signin</string>
+<string name="lbl_enter">Enter </string>
+<string name="lbl_good_afternoon">Good afternoon,</string>
+<string name="lbl_art">Art</string>
+<string name="lbl_sign_in">Sign in</string>
+<string name="lbl_32_00">-$32.00</string>
+<string name="lbl_your_password">Your password</string>
+<string name="lbl_abc">ABC</string>
+<string name="lbl_200_going">+200 Going</string>
+<string name="lbl_50">50%</string>
+<string name="lbl_0_20">0:20</string>
+<string name="lbl_map">Map</string>
+<string name="lbl_sms"> SMS</string>
+<string name="lbl_muhamamd_hadi">Muhamamd Hadi</string>
+<string name="msg_forgot_password">Forgot Password?</string>
+<string name="lbl_pqrs">PQRS</string>
+<string name="lbl_code_sent_via">code sent via</string>
+<string name="lbl_signin2">Signin</string>
+<string name="lbl_jkl">JKL</string>
+<string name="lbl_our">our </string>
+<string name="lbl_select">
+Select </string>
+<string name="lbl_verification">Verification</string>
+<string name="lbl_c">C</string>
+<string name="lbl_verification2">Verification
+</string>
+<string name="lbl_2022_09_12">2022-09-12</string>
+<string name="lbl_f">F</string>
+<string name="msg_withdraw_to_ban">Withdraw to Bank</string>
+<string name="msg_login_with_goog">Login with Google</string>
+<string name="lbl_competitons">Competitons</string>
+<string name="lbl_reservation">Reservation</string>
+<string name="msg_you_currently_o">You currently owe</string>
+<string name="lbl_sign_out">Sign Out</string>
+<string name="lbl_jacquie">Jacquie!</string>
+<string name="msg_loan_repayment">Loan Repayment Fees</string>
+<string name="lbl_7th_mar_2023">7th Mar, 2023</string>
+<string name="msg_3_000_00_of_1">$3,000.00 of $10,050.00</string>
+<string name="lbl_buy_it_now">Buy it Now</string>
+<string name="msg_don_t_have_an_a2">Don\u2019t have an account?  </string>
+<string name="lbl_tastefest">TasteFest</string>
+<string name="msg_rs_1500_perso">Rs 1500 / person</string>
+<string name="lbl_of_10_050_00">of $10,050.00</string>
+<string name="msg_display_on_your">display on your home page</string>
+<string name="msg_already_have_an2">Already have an account?  </string>
+<string name="msg_loan_disburseme">Loan Disbursement</string>
+<string name="lbl_re_send_code_in">Re-send code in </string>
+<string name="lbl_welcome">Welcome</string>
+<string name="lbl_resend_code">Resend Code</string>
+<string name="lbl_filters">Filters</string>
+<string name="lbl_university">University</string>
+<string name="lbl_repay_loan">Repay Loan</string>
+<string name="lbl_upcoming_events">Upcoming Events</string>
+<string name="lbl_oct">oct</string>
+<string name="msg_we_ve_send_you">We\u2019ve send you the verification code on +92 345 8288723</string>
+<string name="msg_fortress_square">Fortress Squareta Cruz, CA&#13;</string>
+<string name="lbl_festive">festive</string>
+<string name="lbl_m_hadi">M. Hadi</string>
+<string name="lbl_wxyz">WXYZ</string>
+<string name="lbl_tuv">TUV</string>
+<string name="lbl_my_profile">My Profile</string>
+<string name="lbl_10_050_00">$10,050.00</string>
+<string name="msg_book_your_spot">Book your spot now, or make a reservation</string>
+<string name="lbl_person">/ person</string>
+<string name="msg_event_categorie">event categories to</string>
+<string name="lbl_t2">T</string>
+<string name="lbl_def">DEF</string>
+<string name="lbl_get_passes">Get  Passes</string>
+<string name="lbl_nearby_you">Nearby You</string>
+<string name="lbl_21">21
+</string>
+<string name="msg_enter_code_sent">Enter code sent to your phone</string>
+<string name="lbl_confirm">Confirm</string>
+<string name="lbl_food">Food</string>
+<string name="msg_o_set_up_your_a">o set up your account, we\u2019ll need:</string>
+<string name="msg_current_locatio">Current Location</string>
+<string name="lbl_mno">MNO</string>
+<string name="lbl_tastefest_23">TasteFest \u201823</string>
+<string name="lbl_see_all">See All</string>
+<string name="msg_o_suggest_relev">o suggest relevant events</string>
+<string name="lbl_contact_us">Contact Us</string>
+<string name="lbl_loan_repayment">Loan Repayment</string>
+<string name="lbl_references">references
+</string>
+<string name="lbl_ab">AB</string>
+<string name="msg_re_send_code_in">Re-send code in  0:20</string>
+<string name="lbl_10">10
+</string>
+<string name="lbl_get_started">GET sTARTED</string>
+<string name="lbl_sign_up">Sign up</string>
+<string name="lbl_3_000_00">$3,000.00</string>
+<string name="lbl_400_going">+400 Going</string>
+<string name="lbl_conference">Conference</string>
+<string name="msg_get_excited_ta">Get excited! Taste Fest is back in style in 2023, featuring an awesome line up of artists and DJs. Sign up for a night you\u2019ll remember!!!</string>
+<string name="lbl_10_050_002">-$10,050.00</string>
+<string name="lbl_back_to_home">Back to Home</string>
+<string name="msg_get_rs_1500_off">Get Rs 1500 off next ticket</string>
+<string name="msg_verification_en">Verification
+Enter code sent via SMS</string>
+<string name="lbl_10_june">10
+June</string>
+<string name="lbl_profile">Profile</string>
+<string name="msg_let_s_personali">Let\u2019s Personalize your preferences
+
+Select event categories to display on your home page</string>
+<string name="lbl_payment_portal">Payment Portal</string>
+<string name="msg_congratulations">Congratulations, Here\u2019s your Ticket !</string>
+<string name="lbl_invite">Invite</string>
+<string name="msg_invite_your_fri">Invite your friends</string>
+<string name="lbl_travel">Travel</string>
+<string name="lbl_rs_1500">Rs 1500</string>
+<string name="lbl_search">Search...</string>
+<string name="lbl_0">0</string>
+<string name="lbl_1">1</string>
+<string name="msg_simply_show_the">Simply show the QR code to friends to scan!</string>
+<string name="lbl_2">2</string>
+<string name="lbl_3">3</string>
+<string name="lbl_4">4</string>
+<string name="lbl_coding">Coding</string>
+<string name="lbl_5">5</string>
+<string name="lbl_6">6</string>
+<string name="lbl_7">7</string>
+<string name="lbl_8">8</string>
+<string name="lbl_9">9</string>
+<string name="lbl_helps_faqs">Helps &amp; FAQs</string>
+<string name="lbl_music">Music</string>
+<string name="msg_login_with_face">Login with Facebook</string>
+<string name="msg_to_set_up_your">to set up your account, we\u2019ll need:</string>
+<string name="lbl_profile_name">Profile name</string>
+<string name="lbl_more_details">More details</string>
+<string name="lbl_ghi">GHI</string>
+<string name="msg_food_street_fe">Food Street, Ferozpur Rd, Lhr </string>
+<string name="lbl_abc_email_com">abc@email.com</string>
+<string name="msg_search_categori">Search categories</string>
+<string name="lbl_39_days_left">39 days left</string>
+<string name="msg_et_s_personaliz">et\u2019s Personalize your p</string>
+<string name="lbl_settings">Settings</string>
+<string name="lbl_or">OR</string>
+<string name="msg_your_preference">Your Preferences
+To suggest relevant events</string>
+<string name="lbl_rs_1500_00">Rs 1500.00</string>
+<string name="msg_lahore_pakista">Lahore, Pakistan</string>
+<string name="lbl_june">June</string>
+<string name="lbl_explore">Explore</string>
+<string name="lbl_islamabad">Islamabad</string>
+<string name="lbl_bookmark">Bookmark</string>
+<string name="lbl_vip_pass">Vip Pass</string>
+<string name="lbl_conferences">Conferences</string>
+<string name="lbl_remember_me">Remember Me</string>
+<string name="lbl_full_name">Full name</string>
+<string name="lbl_mini_statement">Mini-Statement</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+</resources>
