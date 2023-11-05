@@ -25,7 +25,7 @@ class PreferencesActivity : BaseActivity<ActivityPreferencesBinding>(R.layout.ac
     binding.imageArrowleft.setOnClickListener {
       finish()
     }
-    binding.viewGroup18177.setOnClickListener {
+    binding.viewContinuebutton.setOnClickListener {
       val destIntent = VerificationActivity.getIntent(this, null)
       startActivity(destIntent)
     }

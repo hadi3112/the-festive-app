@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">muhammad_s_application</string>
+    <string name="app_name">Festive</string>
     <string name="loading">Loading?</string>
     <string name="no_internet_connection">No internet connection!</string>
     <!--TODO ENTER YOUR APP ID BELOW-->
@@ -29,7 +29,6 @@ oct</string>
 <string name="lbl_sign_in">Sign in</string>
 <string name="lbl_32_00">-$32.00</string>
 <string name="lbl_your_password">Your password</string>
-<string name="lbl_abc">ABC</string>
 <string name="lbl_200_going">+200 Going</string>
 <string name="lbl_50">50%</string>
 <string name="lbl_0_20">0:20</string>
@@ -37,15 +36,12 @@ oct</string>
 <string name="lbl_sms"> SMS</string>
 <string name="lbl_muhamamd_hadi">Muhamamd Hadi</string>
 <string name="msg_forgot_password">Forgot Password?</string>
-<string name="lbl_pqrs">PQRS</string>
 <string name="lbl_code_sent_via">code sent via</string>
 <string name="lbl_signin2">Signin</string>
-<string name="lbl_jkl">JKL</string>
 <string name="lbl_our">our </string>
 <string name="lbl_select">
 Select </string>
 <string name="lbl_verification">Verification</string>
-<string name="lbl_c">C</string>
 <string name="lbl_verification2">Verification
 </string>
 <string name="lbl_2022_09_12">2022-09-12</string>
@@ -74,21 +70,18 @@ Select </string>
 <string name="lbl_filters">Filters</string>
 <string name="lbl_university">University</string>
 <string name="lbl_repay_loan">Repay Loan</string>
-<string name="lbl_upcoming_events">Upcoming Events</string>
 <string name="lbl_oct">oct</string>
+<string name="lbl_upcoming_events">Upcoming Events</string>
 <string name="msg_we_ve_send_you">We\u2019ve send you the verification code on +92 345 8288723</string>
 <string name="msg_fortress_square">Fortress Squareta Cruz, CA&#13;</string>
-<string name="lbl_festive">festive</string>
+<string name="lbl_fastpass">FastPass</string>
 <string name="lbl_m_hadi">M. Hadi</string>
-<string name="lbl_wxyz">WXYZ</string>
-<string name="lbl_tuv">TUV</string>
 <string name="lbl_my_profile">My Profile</string>
 <string name="lbl_10_050_00">$10,050.00</string>
 <string name="msg_book_your_spot">Book your spot now, or make a reservation</string>
 <string name="lbl_person">/ person</string>
 <string name="msg_event_categorie">event categories to</string>
 <string name="lbl_t2">T</string>
-<string name="lbl_def">DEF</string>
 <string name="lbl_get_passes">Get  Passes</string>
 <string name="lbl_nearby_you">Nearby You</string>
 <string name="lbl_21">21
@@ -98,7 +91,6 @@ Select </string>
 <string name="lbl_food">Food</string>
 <string name="msg_o_set_up_your_a">o set up your account, we\u2019ll need:</string>
 <string name="msg_current_locatio">Current Location</string>
-<string name="lbl_mno">MNO</string>
 <string name="lbl_tastefest_23">TasteFest \u201823</string>
 <string name="lbl_see_all">See All</string>
 <string name="msg_o_suggest_relev">o suggest relevant events</string>
@@ -106,7 +98,6 @@ Select </string>
 <string name="lbl_loan_repayment">Loan Repayment</string>
 <string name="lbl_references">references
 </string>
-<string name="lbl_ab">AB</string>
 <string name="msg_re_send_code_in">Re-send code in  0:20</string>
 <string name="lbl_10">10
 </string>
@@ -134,25 +125,14 @@ Select event categories to display on your home page</string>
 <string name="lbl_travel">Travel</string>
 <string name="lbl_rs_1500">Rs 1500</string>
 <string name="lbl_search">Search...</string>
-<string name="lbl_0">0</string>
-<string name="lbl_1">1</string>
 <string name="msg_simply_show_the">Simply show the QR code to friends to scan!</string>
-<string name="lbl_2">2</string>
-<string name="lbl_3">3</string>
-<string name="lbl_4">4</string>
 <string name="lbl_coding">Coding</string>
-<string name="lbl_5">5</string>
-<string name="lbl_6">6</string>
-<string name="lbl_7">7</string>
-<string name="lbl_8">8</string>
-<string name="lbl_9">9</string>
 <string name="lbl_helps_faqs">Helps &amp; FAQs</string>
 <string name="lbl_music">Music</string>
 <string name="msg_login_with_face">Login with Facebook</string>
 <string name="msg_to_set_up_your">to set up your account, we\u2019ll need:</string>
 <string name="lbl_profile_name">Profile name</string>
 <string name="lbl_more_details">More details</string>
-<string name="lbl_ghi">GHI</string>
 <string name="msg_food_street_fe">Food Street, Ferozpur Rd, Lhr </string>
 <string name="lbl_abc_email_com">abc@email.com</string>
 <string name="msg_search_categori">Search categories</string>
@@ -173,7 +153,7 @@ To suggest relevant events</string>
 <string name="lbl_remember_me">Remember Me</string>
 <string name="lbl_full_name">Full name</string>
 <string name="lbl_mini_statement">Mini-Statement</string>
-<string name="msg_please_enter_valid_text">Please enter valid text</string>
 <string name="msg_please_enter_valid_pa">Please enter valid password</string>
 <string name="msg_please_enter_valid_email">Please enter valid email</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
 </resources>

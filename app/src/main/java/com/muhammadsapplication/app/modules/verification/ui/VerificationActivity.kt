@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
-import android.view.View
 import androidx.activity.result.ActivityResultCallback
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -13,12 +12,10 @@ import com.google.android.gms.auth.api.phone.SmsRetriever
 import com.muhammadsapplication.app.R
 import com.muhammadsapplication.app.appcomponents.base.BaseActivity
 import com.muhammadsapplication.app.databinding.ActivityVerificationBinding
-import com.muhammadsapplication.app.modules.homecontainer.ui.HomeContainerActivity
-import com.muhammadsapplication.app.modules.verification.`data`.model.VerificationRowModel
+import com.muhammadsapplication.app.modules.homecontainer.ui.HomecontainerActivity
 import com.muhammadsapplication.app.modules.verification.`data`.viewmodel.VerificationVM
 import java.util.regex.Matcher
 import java.util.regex.Pattern
-import kotlin.Int
 import kotlin.String
 import kotlin.Unit
 
@@ -40,19 +37,6 @@ class VerificationActivity :
     override fun onInitialized(): Unit {
       viewModel.navArguments = intent.extras?.getBundle("bundle")
       startSmartUserConsent()
-      val verificationAdapter =
-      VerificationAdapter(viewModel.verificationList.value?:mutableListOf())
-      binding.recyclerVerification.adapter = verificationAdapter
-      verificationAdapter.setOnItemClickListener(
-      object : VerificationAdapter.OnItemClickListener {
-        override fun onItemClick(view:View, position:Int, item : VerificationRowModel) {
-          onClickRecyclerVerification(view, position, item)
-        }
-      }
-      )
-      viewModel.verificationList.observe(this) {
-        verificationAdapter.updateData(it)
-      }
       binding.verificationVM = viewModel
     }
 
@@ -68,7 +52,7 @@ class VerificationActivity :
 
     override fun setUpClicks(): Unit {
       binding.linearColumnarrowright.setOnClickListener {
-        val destIntent = HomeContainerActivity.getIntent(this, null)
+        val destIntent = HomecontainerActivity.getIntent(this, null)
         startActivity(destIntent)
       }
       binding.imageArrowleft.setOnClickListener {
@@ -101,15 +85,6 @@ class VerificationActivity :
       val matcher: Matcher = otpPattern.matcher(message)
       if (matcher.find()) {
         binding.otpViewOtpview?.setText(matcher.group(0))
-      }
-    }
-
-    fun onClickRecyclerVerification(
-      view: View,
-      position: Int,
-      item: VerificationRowModel
-    ): Unit {
-      when(view.id) {
       }
     }
 

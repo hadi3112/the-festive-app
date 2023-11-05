@@ -4,9 +4,9 @@ import androidx.activity.viewModels
 import com.muhammadsapplication.app.R
 import com.muhammadsapplication.app.appcomponents.base.BaseActivity
 import com.muhammadsapplication.app.databinding.ActivitySpecificItemBinding
-import com.muhammadsapplication.app.modules.homecontainer.ui.HomeContainerActivity
+import com.muhammadsapplication.app.modules.homecontainer.ui.HomecontainerActivity
 import com.muhammadsapplication.app.modules.paymentportal.ui.PaymentPortalActivity
-import com.muhammadsapplication.app.modules.specificitem.`data`.model.ImageSliderSlidergroupfourModel
+import com.muhammadsapplication.app.modules.specificitem.`data`.model.ImageSliderSlidergrouponeModel
 import com.muhammadsapplication.app.modules.specificitem.`data`.viewmodel.SpecificItemVM
 import kotlin.String
 import kotlin.Unit
@@ -14,7 +14,7 @@ import kotlin.collections.ArrayList
 
 class SpecificItemActivity :
     BaseActivity<ActivitySpecificItemBinding>(R.layout.activity_specific_item) {
-  private val imageSliderSlidergroupfourItems: ArrayList<ImageSliderSlidergroupfourModel> =
+  private val imageSliderSlidergrouponeItems: ArrayList<ImageSliderSlidergrouponeModel> =
       arrayListOf()
 
 
@@ -22,35 +22,35 @@ class SpecificItemActivity :
 
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
-    val slidergroupfourAdapter = SlidergroupfourAdapter(imageSliderSlidergroupfourItems,true)
-    binding.imageSliderSlidergroupfour.adapter = slidergroupfourAdapter
-    binding.imageSliderSlidergroupfour.onIndicatorProgress = { selectingPosition, progress ->
+    val slidergrouponeAdapter = SlidergrouponeAdapter(imageSliderSlidergrouponeItems,true)
+    binding.imageSliderSlidergroupone.adapter = slidergrouponeAdapter
+    binding.imageSliderSlidergroupone.onIndicatorProgress = { selectingPosition, progress ->
       binding.indicatorFrame330.onPageScrolled(selectingPosition, progress)
     }
-    binding.indicatorFrame330.updateIndicatorCounts(binding.imageSliderSlidergroupfour.indicatorCount)
+    binding.indicatorFrame330.updateIndicatorCounts(binding.imageSliderSlidergroupone.indicatorCount)
     binding.specificItemVM = viewModel
   }
 
   override fun onPause(): Unit {
-    binding.imageSliderSlidergroupfour.pauseAutoScroll()
+    binding.imageSliderSlidergroupone.pauseAutoScroll()
     super.onPause()
   }
 
   override fun onResume(): Unit {
     super.onResume()
-    binding.imageSliderSlidergroupfour.resumeAutoScroll()
+    binding.imageSliderSlidergroupone.resumeAutoScroll()
   }
 
   override fun setUpClicks(): Unit {
+    binding.linearRowarrowleft.setOnClickListener {
+      val destIntent = HomecontainerActivity.getIntent(this, null)
+      startActivity(destIntent)
+    }
     binding.imageArrowleft.setOnClickListener {
       finish()
     }
     binding.btnGetPasses.setOnClickListener {
       val destIntent = PaymentPortalActivity.getIntent(this, null)
-      startActivity(destIntent)
-    }
-    binding.linearRowarrowleft.setOnClickListener {
-      val destIntent = HomeContainerActivity.getIntent(this, null)
       startActivity(destIntent)
     }
     binding.linearColumngetPasses.setOnClickListener {

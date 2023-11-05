@@ -19,7 +19,43 @@ data class HomeModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtFilterlabelte: String? = MyApp.getInstance().resources.getString(R.string.lbl_filters)
+  var txtArmanrokni: String? = MyApp.getInstance().resources.getString(R.string.lbl_10_june)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtImGoingtoSh: String? = MyApp.getInstance().resources.getString(R.string.lbl_tastefest_23)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtGoingTextEventA: String? = MyApp.getInstance().resources.getString(R.string.lbl_200_going)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.msg_food_street_fe)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtDateAText: String? = MyApp.getInstance().resources.getString(R.string.lbl_21_oct)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtImGoingtoShOne: String? = MyApp.getInstance().resources.getString(R.string.lbl_conference)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtGoingEventBText: String? = MyApp.getInstance().resources.getString(R.string.lbl_400_going)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtTimeEventBText: String? =
+      MyApp.getInstance().resources.getString(R.string.msg_fortress_square)
   ,
   /**
    * TODO Replace with dynamic value
@@ -31,46 +67,6 @@ data class HomeModel(
    * TODO Replace with dynamic value
    */
   var txtAllCopy: String? = MyApp.getInstance().resources.getString(R.string.lbl_see_all)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtArmanrokni: String? = MyApp.getInstance().resources.getString(R.string.lbl_10_june)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtImGoingtoSh: String? = MyApp.getInstance().resources.getString(R.string.lbl_tastefest_23)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txt200Going: String? = MyApp.getInstance().resources.getString(R.string.lbl_200_going)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.msg_food_street_fe)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txt21Oct: String? = MyApp.getInstance().resources.getString(R.string.lbl_21_oct)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtImGoingtoShOne: String? = MyApp.getInstance().resources.getString(R.string.lbl_conference)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txt400Going: String? = MyApp.getInstance().resources.getString(R.string.lbl_400_going)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txt24min: String? = MyApp.getInstance().resources.getString(R.string.msg_fortress_square)
   ,
   /**
    * TODO Replace with dynamic value
@@ -108,5 +104,14 @@ data class HomeModel(
    * TODO Replace with dynamic value
    */
   var txtFood: String? = MyApp.getInstance().resources.getString(R.string.lbl_food)
-
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtArt: String? = MyApp.getInstance().resources.getString(R.string.lbl_art)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etFilterbuttonValue: String? = null
 )

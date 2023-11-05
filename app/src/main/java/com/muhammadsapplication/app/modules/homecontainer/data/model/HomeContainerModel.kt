@@ -4,7 +4,7 @@ import com.muhammadsapplication.app.R
 import com.muhammadsapplication.app.appcomponents.di.MyApp
 import kotlin.String
 
-data class HomeContainerModel(
+data class HomecontainerModel(
   /**
    * TODO Replace with dynamic value
    */

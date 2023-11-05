@@ -4,7 +4,7 @@ import androidx.activity.viewModels
 import com.muhammadsapplication.app.R
 import com.muhammadsapplication.app.appcomponents.base.BaseActivity
 import com.muhammadsapplication.app.databinding.ActivityHomewithhamburgermenuBinding
-import com.muhammadsapplication.app.modules.homecontainer.ui.HomeContainerActivity
+import com.muhammadsapplication.app.modules.homecontainer.ui.HomecontainerActivity
 import com.muhammadsapplication.app.modules.homewithhamburgermenu.`data`.viewmodel.HomewithhamburgermenuVM
 import kotlin.String
 import kotlin.Unit
@@ -19,8 +19,8 @@ class HomewithhamburgermenuActivity :
   }
 
   override fun setUpClicks(): Unit {
-    binding.imageImageNinetyFour.setOnClickListener {
-      val destIntent = HomeContainerActivity.getIntent(this, null)
+    binding.imageThehomeinbac.setOnClickListener {
+      val destIntent = HomecontainerActivity.getIntent(this, null)
       startActivity(destIntent)
     }
   }

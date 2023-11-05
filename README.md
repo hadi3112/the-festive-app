@@ -1,5 +1,5 @@
 
-# muhammad_s_application
+# muhammad_s_application2
 
 Built with AndroidX Support
 
@@ -75,6 +75,4 @@ We were unable to find following Fonts, Please add manually to ```app/src/main/r
 airbnbcerealappmedium
 airbnbcerealappbold
 airbnbcerealappbook
-sfprodisplayregular
-sfprotextbold
 ```

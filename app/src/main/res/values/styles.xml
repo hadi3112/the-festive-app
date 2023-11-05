@@ -2,9 +2,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="txtAirbnbCerealAppmedium14_1">
         <item name="android:textSize">@dimen/_14pxh</item>
-        <item name="android:textColor">@color/red_400</item>
+        <item name="android:textColor">@color/gray_600</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="etSolidRounded_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_a700_radius_10</item>
     </style>
     <style name="groupStyledeep_orange_301cornerRadius">
         <item name="android:background">@drawable/rectangle_bg_deep_orange_301_radius_bl_20_br_20</item>
@@ -12,17 +19,18 @@
     <style name="groupStylecornerRadius">
         <item name="android:background">@drawable/rectangle_radius_1</item>
     </style>
-    <style name="txtSFProTextbold10">
-        <item name="android:textSize">@dimen/_10pxh</item>
-        <item name="android:textColor">@color/black_901</item>
-        <item name="android:fontFamily">@font/sf_pro_text</item>
-        <item name="android:textFontWeight" tools:targetApi="p">700</item>
-    </style>
     <style name="groupStyledeep_orange_300cornerRadius">
-        <item name="android:background">@drawable/rectangle_bg_deep_orange_300_radius_19_53</item>
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_300_radius_18_04</item>
+    </style>
+    <style name="etSolidRounded_1">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_a400_radius_10</item>
     </style>
     <style name="groupStyleyellow_800cornerRadius">
-        <item name="android:background">@drawable/rectangle_bg_yellow_800_radius_16_07</item>
+        <item name="android:background">@drawable/rectangle_bg_yellow_800_radius_15</item>
     </style>
     <style name="txtPoppinsmedium16">
         <item name="android:textSize">@dimen/_16pxh</item>
@@ -38,7 +46,7 @@
     </style>
     <style name="txtAirbnbCerealAppmedium18_1">
         <item name="android:textSize">@dimen/_18pxh</item>
-        <item name="android:textColor">@color/black_901</item>
+        <item name="android:textColor">@color/gray_900_a6</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -94,14 +102,11 @@
         <item name="android:background">@drawable/rectangle_bg_orange_200_radius_10</item>
     </style>
     <style name="txtRounded">
-        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textSize">@dimen/_12pxh</item>
         <item name="android:textColor">@color/white_A700</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
         <item name="android:background">@drawable/rectangle_radius_8_865</item>
-    </style>
-    <style name="groupStyleyellow_1">
-        <item name="android:background">@drawable/rectangle_bg_yellow_800_radius_15</item>
     </style>
     <style name="txtPoppinssemibold24">
         <item name="android:textSize">@dimen/_24pxh</item>
@@ -115,16 +120,9 @@
         <item name="android:fontFamily">@font/raleway</item>
         <item name="android:textFontWeight" tools:targetApi="p">600</item>
     </style>
-    <style name="txtSolidRounded">
-        <item name="android:textSize">@dimen/_25pxh</item>
-        <item name="android:textColor">@color/black_901</item>
-        <item name="android:fontFamily">@font/sf_pro_display</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
-        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_5</item>
-    </style>
     <style name="txtAirbnbCerealAppmedium13_1">
         <item name="android:textSize">@dimen/_13pxh</item>
-        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:textColor">@color/white_A700</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -145,9 +143,6 @@
         <item name="android:textColor">@color/gray_900</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">400</item>
-    </style>
-    <style name="groupStylebluegray_100_e5">
-        <item name="android:background">@drawable/rectangle_bg_bluegray_100_e5</item>
     </style>
     <style name="groupStylecyan_A400_28cornerRadius">
         <item name="android:background">@drawable/rectangle_bg_cyan_a400_28_radius_12</item>
@@ -173,9 +168,6 @@
         <item name="android:fontFamily">@font/inter</item>
         <item name="android:textFontWeight" tools:targetApi="p">600</item>
     </style>
-    <style name="groupStyleteal_1">
-        <item name="android:background">@drawable/rectangle_bg_teal_a400_radius_10</item>
-    </style>
     <style name="txtIntersemibold16">
         <item name="android:textSize">@dimen/_16pxh</item>
         <item name="android:textColor">@color/white_A700</item>
@@ -199,13 +191,13 @@
     </style>
     <style name="txtAirbnbCerealAppmedium12_2">
         <item name="android:textSize">@dimen/_12pxh</item>
-        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:textColor">@color/gray_900</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
     <style name="txtAirbnbCerealAppmedium12_3">
         <item name="android:textSize">@dimen/_12pxh</item>
-        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:textColor">@color/white_A700</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -217,7 +209,7 @@
     </style>
     <style name="txtAirbnbCerealAppmedium12_1">
         <item name="android:textSize">@dimen/_12pxh</item>
-        <item name="android:textColor">@color/indigo_A700</item>
+        <item name="android:textColor">@color/bluegray_700</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -227,13 +219,6 @@
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
-    <style name="btnSolidRounded_3">
-        <item name="android:textSize">@dimen/_15pxh</item>
-        <item name="android:textColor">@color/white_A700</item>
-        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
-        <item name="android:textFontWeight" tools:targetApi="p">500</item>
-        <item name="android:background">@drawable/rectangle_bg_red_200_radius_11</item>
-    </style>
     <style name="txtPoppinsbold16">
         <item name="android:textSize">@dimen/_16pxh</item>
         <item name="android:textColor">@color/black_901</item>
@@ -241,18 +226,18 @@
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
     <style name="btnSolidRounded_2">
+        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_red_200_radius_11</item>
+    </style>
+    <style name="btnSolidRounded_1">
         <item name="android:textSize">@dimen/_17pxh</item>
         <item name="android:textColor">@color/red_50</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">600</item>
         <item name="android:background">@drawable/rectangle_bg_red_600_radius_7_88</item>
-    </style>
-    <style name="btnSolidRounded_1">
-        <item name="android:textSize">@dimen/_25pxh</item>
-        <item name="android:textColor">@color/black_901</item>
-        <item name="android:fontFamily">@font/sf_pro_display</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
-        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_5</item>
     </style>
     <style name="txtAirbnbCerealAppmedium19">
         <item name="android:textSize">@dimen/_19pxh</item>
@@ -262,7 +247,7 @@
     </style>
     <style name="txtAirbnbCerealAppmedium18">
         <item name="android:textSize">@dimen/_18pxh</item>
-        <item name="android:textColor">@color/gray_900_a6</item>
+        <item name="android:textColor">@color/black_901</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -281,12 +266,6 @@
     <style name="txtAirbnbCerealAppmedium22">
         <item name="android:textSize">@dimen/_22pxh</item>
         <item name="android:textColor">@color/black_901</item>
-        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
-        <item name="android:textFontWeight" tools:targetApi="p">500</item>
-    </style>
-    <style name="txtAirbnbCerealAppmedium20">
-        <item name="android:textSize">@dimen/_20pxh</item>
-        <item name="android:textColor">@color/white_A700_75</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -314,32 +293,11 @@
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">300</item>
     </style>
-    <style name="txtAirbnbCerealAppmedium12_4">
-        <item name="android:textSize">@dimen/_12pxh</item>
-        <item name="android:textColor">@color/orange_700</item>
-        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
-        <item name="android:textFontWeight" tools:targetApi="p">500</item>
-    </style>
     <style name="txtAirbnbCerealAppmedium16_1">
         <item name="android:textSize">@dimen/_16pxh</item>
         <item name="android:textColor">@color/gray_500</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
-    </style>
-    <style name="txtSFProDisplayregular25">
-        <item name="android:textSize">@dimen/_25pxh</item>
-        <item name="android:textColor">@color/black_901</item>
-        <item name="android:fontFamily">@font/sf_pro_display</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
-    </style>
-    <style name="txtAirbnbCerealAppmedium12_5">
-        <item name="android:textSize">@dimen/_12pxh</item>
-        <item name="android:textColor">@color/bluegray_801</item>
-        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
-        <item name="android:textFontWeight" tools:targetApi="p">500</item>
-    </style>
-    <style name="groupStylered_1">
-        <item name="android:background">@drawable/rectangle_bg_red_400_radius_10</item>
     </style>
     <style name="btnSolidRoundedOutline">
         <item name="android:textSize">@dimen/_16pxh</item>
@@ -355,11 +313,11 @@
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
     <style name="etSolidRounded">
-        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textSize">@dimen/_11pxh</item>
         <item name="android:textColor">@color/white_A700</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
-        <item name="android:background">@drawable/rectangle_bg_teal_a700_radius_10</item>
+        <item name="android:background">@drawable/rectangle_bg_yellow_800_radius_16_07</item>
     </style>
     <style name="groupStylecornerRadius_3">
         <item name="android:background">@drawable/rectangle_radius_8</item>
@@ -403,7 +361,7 @@
     </style>
     <style name="txtDMSansbold16">
         <item name="android:textSize">@dimen/_16pxh</item>
-        <item name="android:textColor">@color/gray_906</item>
+        <item name="android:textColor">@color/gray_907</item>
         <item name="android:fontFamily">@font/dm_sans</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
@@ -411,10 +369,13 @@
         <item name="android:background">@drawable/rectangle_radius_5</item>
     </style>
     <style name="groupStyleteal_A400cornerRadius">
-        <item name="android:background">@drawable/rectangle_bg_teal_a400_radius_19_47</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_a400_radius_17_985</item>
+    </style>
+    <style name="groupStylelight_blue_1">
+        <item name="android:background">@drawable/rectangle_bg_light_blue_a200_radius_10</item>
     </style>
     <style name="groupStylewhite_1">
-        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_12</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_66_46</item>
     </style>
     <style name="txtAirbnbCerealAppbook16">
         <item name="android:textSize">@dimen/_16pxh</item>
@@ -422,14 +383,11 @@
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">400</item>
     </style>
-    <style name="groupStyleamber_300cornerRadius">
-        <item name="android:background">@drawable/rectangle_bg_amber_300_radius_10</item>
-    </style>
     <style name="groupStylewhite_3">
         <item name="android:background">@drawable/rectangle_bg_white_a700_border_black_900_11</item>
     </style>
     <style name="groupStylewhite_2">
-        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_5</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_12</item>
     </style>
     <style name="etSolidRoundedOutline">
         <item name="android:textSize">@dimen/_14pxh</item>
@@ -449,7 +407,7 @@
     </style>
     <style name="txtIntersemibold16_1">
         <item name="android:textSize">@dimen/_16pxh</item>
-        <item name="android:textColor">@color/red_402</item>
+        <item name="android:textColor">@color/red_403</item>
         <item name="android:fontFamily">@font/inter</item>
         <item name="android:textFontWeight" tools:targetApi="p">600</item>
     </style>
@@ -458,7 +416,7 @@
     </style>
     <style name="txtAirbnbCerealAppmedium15">
         <item name="android:textSize">@dimen/_15pxh</item>
-        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:textColor">@color/white_A700_75</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -479,19 +437,25 @@
     </style>
     <style name="txtAirbnbCerealAppmedium13">
         <item name="android:textSize">@dimen/_13pxh</item>
-        <item name="android:textColor">@color/gray_100</item>
+        <item name="android:textColor">@color/bluegray_900</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
     <style name="txtAirbnbCerealAppmedium14">
         <item name="android:textSize">@dimen/_14pxh</item>
-        <item name="android:textColor">@color/gray_600</item>
+        <item name="android:textColor">@color/red_401</item>
+        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtAirbnbCerealAppmedium11">
+        <item name="android:textSize">@dimen/_11pxh</item>
+        <item name="android:textColor">@color/gray_100</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
     <style name="txtAirbnbCerealAppmedium12">
         <item name="android:textSize">@dimen/_12pxh</item>
-        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:textColor">@color/indigo_A700</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
@@ -520,20 +484,41 @@
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
+    <style name="txtAirbnbCerealAppmedium11_3">
+        <item name="android:textSize">@dimen/_11pxh</item>
+        <item name="android:textColor">@color/bluegray_801</item>
+        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
     <style name="txtPoppinsbold16_1">
         <item name="android:textSize">@dimen/_16pxh</item>
         <item name="android:textColor">@color/white_A700</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
+    <style name="txtAirbnbCerealAppmedium11_1">
+        <item name="android:textSize">@dimen/_11pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtAirbnbCerealAppmedium11_2">
+        <item name="android:textSize">@dimen/_11pxh</item>
+        <item name="android:textColor">@color/orange_700</item>
+        <item name="android:fontFamily">@font/airbnb_cereal_app</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylered_401cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_401_radius_18_04</item>
+    </style>
     <style name="groupStylered_400cornerRadius">
-        <item name="android:background">@drawable/rectangle_bg_red_400_radius_19_53</item>
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_72</item>
     </style>
     <style name="groupStyleorange_300cornerRadius">
         <item name="android:background">@drawable/rectangle_bg_orange_300_radius_10</item>
     </style>
     <style name="groupStylelight_blue_A200cornerRadius">
-        <item name="android:background">@drawable/rectangle_bg_light_blue_a200_radius_10</item>
+        <item name="android:background">@drawable/rectangle_bg_light_blue_a200_radius_18_04</item>
     </style>
     <style name="etSolidRoundedOutline_1">
         <item name="android:textSize">@dimen/_14pxh</item>
@@ -556,27 +541,24 @@
     </style>
     <style name="txtAirbnbCerealAppmedium15_3">
         <item name="android:textSize">@dimen/_15pxh</item>
-        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:textColor">@color/gray_503</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
     <style name="txtAirbnbCerealAppmedium15_1">
         <item name="android:textSize">@dimen/_15pxh</item>
-        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:textColor">@color/white_A700</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
     <style name="txtAirbnbCerealAppmedium15_2">
         <item name="android:textSize">@dimen/_15pxh</item>
-        <item name="android:textColor">@color/gray_503</item>
+        <item name="android:textColor">@color/gray_900</item>
         <item name="android:fontFamily">@font/airbnb_cereal_app</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
     </style>
     <style name="groupStyleblue_A400cornerRadius">
         <item name="android:background">@drawable/rectangle_bg_blue_a400_radius_15_38</item>
-    </style>
-    <style name="groupStyleorange_400">
-        <item name="android:background">@drawable/rectangle_bg_orange_400</item>
     </style>
     <style name="txtAirbnbCerealAppmedium35">
         <item name="android:textSize">@dimen/_35pxh</item>
@@ -595,7 +577,7 @@
     </style>
     <style name="txtPoppinssemibold16_1">
         <item name="android:textSize">@dimen/_16pxh</item>
-        <item name="android:textColor">@color/red_402</item>
+        <item name="android:textColor">@color/red_403</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">600</item>
     </style>

@@ -9,14 +9,15 @@
     <color name="white">#FFFFFFFF</color>
 <color name="white_A700_b2">#b2ffffff</color>
 <color name="black_900_3a">#3a000000</color>
+<color name="red_403">#e25c5c</color>
 <color name="blue_A400">#1977f3</color>
-<color name="red_402">#e25c5c</color>
 <color name="red_600">#f12b2b</color>
 <color name="bluegray_100_3f">#3fd2d4e2</color>
 <color name="gray_613">#707070</color>
 <color name="red_200">#fa9790</color>
 <color name="indigo_300_3f">#3f6f7dc8</color>
-<color name="red_400">#ef635a</color>
+<color name="red_401">#ef635a</color>
+<color name="red_400">#f1573d</color>
 <color name="bluegray_900_1e">#1e2e2e4e</color>
 <color name="white_A700_99">#99ffffff</color>
 <color name="gray_900_0c">#0c101828</color>
@@ -29,7 +30,6 @@
 <color name="gray_600">#747688</color>
 <color name="teal_A700">#00b6aa</color>
 <color name="black_900_4c">#4c000000</color>
-<color name="bluegray_100_e5">#e5d2d5db</color>
 <color name="gray_800">#3f4144</color>
 <color name="orange_600">#ff8900</color>
 <color name="amber_300">#ffda59</color>
@@ -39,9 +39,8 @@
 <color name="bluegray_801">#2c3550</color>
 <color name="bluegray_800">#37364a</color>
 <color name="black_900_11">#11000000</color>
-<color name="bluegray_401">#858797</color>
 <color name="indigo_A700">#3f38dd</color>
-<color name="bluegray_400">#848688</color>
+<color name="bluegray_400">#858797</color>
 <color name="white_A701">#fefefe</color>
 <color name="black_900_14">#14000000</color>
 <color name="white_A700">#ffffff</color>
@@ -63,7 +62,7 @@
 <color name="black_901">#000000</color>
 <color name="gray_905">#242424</color>
 <color name="deep_orange_200">#ffafaf</color>
-<color name="gray_906">#1c1939</color>
+<color name="gray_907">#1c1939</color>
 <color name="black_900_bf">#bf000000</color>
 <color name="gray_301">#dfe4eb</color>
 <color name="gray_500">#9d9898</color>

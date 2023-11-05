@@ -14,12 +14,7 @@ data class PreferencesModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtSuggested: String? = MyApp.getInstance().resources.getString(R.string.lbl_suggested)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtFood: String? = MyApp.getInstance().resources.getString(R.string.lbl_food)
+  var txtSuggestedtitle: String? = MyApp.getInstance().resources.getString(R.string.lbl_suggested)
   ,
   /**
    * TODO Replace with dynamic value
@@ -49,14 +44,18 @@ data class PreferencesModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtContinue: String? = MyApp.getInstance().resources.getString(R.string.lbl_continue)
+  var txtContinuetextvi: String? = MyApp.getInstance().resources.getString(R.string.lbl_continue)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  var etGroup33330Value: String? = null,
+  var etSearchbarbackValue: String? = null,
   /**
    * TODO Replace with dynamic value
    */
-  var etSuggestionGrouValue: String? = null
+  var etSuggestionGrouValue: String? = null,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etSuggestionGrouOneValue: String? = null
 )

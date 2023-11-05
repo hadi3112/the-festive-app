@@ -6,20 +6,20 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import com.muhammadsapplication.app.R
 import com.muhammadsapplication.app.appcomponents.base.BaseActivity
-import com.muhammadsapplication.app.databinding.ActivityHomeContainerBinding
+import com.muhammadsapplication.app.databinding.ActivityHomecontainerBinding
 import com.muhammadsapplication.app.extensions.loadFragment
 import com.muhammadsapplication.app.modules.home.ui.HomeFragment
-import com.muhammadsapplication.app.modules.homecontainer.`data`.viewmodel.HomeContainerVM
+import com.muhammadsapplication.app.modules.homecontainer.`data`.viewmodel.HomecontainerVM
 import kotlin.String
 import kotlin.Unit
 
-class HomeContainerActivity :
-    BaseActivity<ActivityHomeContainerBinding>(R.layout.activity_home_container) {
-  private val viewModel: HomeContainerVM by viewModels<HomeContainerVM>()
+class HomecontainerActivity :
+    BaseActivity<ActivityHomecontainerBinding>(R.layout.activity_homecontainer) {
+  private val viewModel: HomecontainerVM by viewModels<HomecontainerVM>()
 
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
-    binding.homeContainerVM = viewModel
+    binding.homecontainerVM = viewModel
     val destFragment = HomeFragment.getInstance(null)
     this.loadFragment(
     R.id.fragmentContainer,
@@ -50,11 +50,11 @@ class HomeContainerActivity :
   }
 
   companion object {
-    const val TAG: String = "HOME_CONTAINER_ACTIVITY"
+    const val TAG: String = "HOMECONTAINER_ACTIVITY"
 
 
     fun getIntent(context: Context, bundle: Bundle?): Intent {
-      val destIntent = Intent(context, HomeContainerActivity::class.java)
+      val destIntent = Intent(context, HomecontainerActivity::class.java)
       destIntent.putExtra("bundle", bundle)
       return destIntent
     }

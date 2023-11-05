@@ -24,30 +24,5 @@ data class VerificationModel(
    * TODO Replace with dynamic value
    */
   var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.msg_re_send_code_in)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtOne: String? = MyApp.getInstance().resources.getString(R.string.lbl_1)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtSeven: String? = MyApp.getInstance().resources.getString(R.string.lbl_2)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtABC: String? = MyApp.getInstance().resources.getString(R.string.lbl_abc)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtEight: String? = MyApp.getInstance().resources.getString(R.string.lbl_3)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var txtABCOne: String? = MyApp.getInstance().resources.getString(R.string.lbl_def)
 
 )

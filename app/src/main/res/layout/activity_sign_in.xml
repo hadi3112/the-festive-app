@@ -6,7 +6,7 @@
     <FrameLayout android:id="@+id/frameSignin"
         android:layout_height="match_parent"
         android:layout_width="match_parent" style="@style/groupStylewhite_A700">
-        <LinearLayout android:id="@+id/linearColumnfestiveicon"
+        <LinearLayout android:id="@+id/linearColumnfastpassicon"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_38pxv"
@@ -14,25 +14,25 @@
             android:layout_marginStart="@dimen/_28pxh"
             android:layout_marginTop="@dimen/_40pxv"
             android:layout_width="match_parent" android:orientation="vertical">
-            <ImageView android:id="@+id/imagefestiveicon"
+            <ImageView android:id="@+id/imageFastPassicon"
                 android:layout_gravity="start"
                 android:layout_height="@dimen/_99pxh"
                 android:layout_marginEnd="@dimen/_115pxh"
                 android:layout_marginStart="@dimen/_115pxh"
                 android:layout_width="@dimen/_69pxh"
                 android:scaleType="fitXY"
-                imageRes="@{@drawable/img_festiveicon}"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_festiveicon"/>
+                imageRes="@{@drawable/img_image2}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_image2"/>
             <TextView android:ellipsize="end"
-                android:id="@+id/txtfestive"
+                android:id="@+id/txtFastPass"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_22pxh"
                 android:layout_marginStart="@dimen/_22pxh"
                 android:layout_width="wrap_content"
                 android:singleLine="true"
-                android:text="@{signInVM.signInModel.txtfestive}"
-                style="@style/txtAirbnbCerealAppmedium35" tools:text="@string/lbl_festive"/>
+                android:text="@{signInVM.signInModel.txtFastPass}"
+                style="@style/txtAirbnbCerealAppmedium35" tools:text="@string/lbl_fastpass"/>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtSignin"
                 android:layout_gravity="start"
@@ -124,9 +124,8 @@
                     android:lineSpacingExtra="@dimen/_4pxh"
                     android:singleLine="true"
                     android:text="@{signInVM.signInModel.txtForgotPassword}"
-                    style="@style/txtAirbnbCerealAppmedium12_3"
-                    textUnderline="true" tools:text="@string/msg_forgot_password"
-                    tools:ignore="TextSizeCheck"/>
+                    style="@style/txtAirbnbCerealAppmedium12_2"
+                    textUnderline="true" tools:text="@string/msg_forgot_password"/>
             </LinearLayout>
             <FrameLayout android:id="@+id/frameSignInButton"
                 android:layout_gravity="center_horizontal"
@@ -138,7 +137,7 @@
                     android:layout_gravity="start"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:orientation="vertical" style="@style/groupStyleyellow_1">
+                    android:orientation="vertical" style="@style/groupStyleyellow_800cornerRadius">
                     <ImageButton
                         android:background="@drawable/rectangle_bg_orange_700_radius_15"
                         android:id="@+id/btnArrowright"
@@ -150,8 +149,7 @@
                         android:paddingHorizontal="@dimen/_8pxh"
                         android:paddingVertical="@dimen/_8pxv"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/img_arrowright" tools:ignore="ContentDescription"
-                        android:contentDescription="NULL"/>
+                        android:src="@drawable/img_arrowright" tools:ignore="ContentDescription"/>
                 </LinearLayout>
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtContinue"
@@ -186,7 +184,7 @@
                 android:layout_marginStart="@dimen/_22pxh"
                 android:layout_marginTop="@dimen/_11pxv"
                 android:layout_width="match_parent"
-                android:orientation="horizontal" style="@style/groupStylewhite_1">
+                android:orientation="horizontal" style="@style/groupStylewhite_2">
                 <ImageView android:id="@+id/imageGoogle"
                     android:layout_height="@dimen/_26pxh"
                     android:layout_marginBottom="@dimen/_15pxv"
@@ -217,7 +215,7 @@
                 android:layout_marginStart="@dimen/_22pxh"
                 android:layout_marginTop="@dimen/_17pxv"
                 android:layout_width="match_parent"
-                android:orientation="horizontal" style="@style/groupStylewhite_1">
+                android:orientation="horizontal" style="@style/groupStylewhite_2">
                 <ImageButton
                     android:background="@drawable/rectangle_bg_blue_a400_radius_15_38"
                     android:id="@+id/btnFacebook"
@@ -253,7 +251,7 @@
                 android:lineSpacingExtra="@dimen/_5pxh"
                 android:singleLine="true"
                 android:text="@{signInVM.signInModel.txtConfirmation}"
-                style="@style/txtAirbnbCerealAppmedium15_1" tools:text="@string/msg_don_t_have_an_a"/>
+                style="@style/txtAirbnbCerealAppmedium15_2" tools:text="@string/msg_don_t_have_an_a"/>
         </LinearLayout>
         <LinearLayout android:id="@+id/linearBgMask"
             android:layout_gravity="start"

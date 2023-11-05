@@ -25,23 +25,23 @@
             android:name="com.muhammadsapplication.app.modules.paymentportal.ui.PaymentPortalActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.muhammadsapplication.app.modules.preferences.ui.PreferencesActivity" android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.muhammadsapplication.app.modules.onlineticket.ui.OnlineTicketActivity" android:screenOrientation="portrait"/>
         <activity android:exported="true"
-            android:name="com.muhammadsapplication.app.modules.signin.ui.SignInActivity" android:screenOrientation="portrait">
+            android:name="com.muhammadsapplication.app.modules.splashscreen.ui.SplashScreenActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
+            android:name="com.muhammadsapplication.app.modules.homecontainer.ui.HomecontainerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.signin.ui.SignInActivity" android:screenOrientation="portrait"/>
+        <activity
             android:name="com.muhammadsapplication.app.modules.specificitem.ui.SpecificItemActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.muhammadsapplication.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.muhammadsapplication.app.modules.gettingstarted.ui.GettingStartedActivity" android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.muhammadsapplication.app.modules.homecontainer.ui.HomeContainerActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.muhammadsapplication.app.modules.verification.ui.VerificationActivity" android:screenOrientation="portrait"/>
         <activity

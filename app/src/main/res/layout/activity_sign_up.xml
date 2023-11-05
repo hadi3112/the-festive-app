@@ -155,7 +155,7 @@
                     android:layout_gravity="start"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:orientation="vertical" style="@style/groupStyleyellow_1">
+                    android:orientation="vertical" style="@style/groupStyleyellow_800cornerRadius">
                     <ImageButton
                         android:background="@drawable/rectangle_bg_orange_700_radius_15"
                         android:id="@+id/btnArrowright"
@@ -202,7 +202,7 @@
                 android:layout_marginStart="@dimen/_21pxh"
                 android:layout_marginTop="@dimen/_11pxv"
                 android:layout_width="match_parent"
-                android:orientation="horizontal" style="@style/groupStylewhite_1">
+                android:orientation="horizontal" style="@style/groupStylewhite_2">
                 <ImageView android:id="@+id/imageGoogle"
                     android:layout_height="@dimen/_26pxh"
                     android:layout_marginBottom="@dimen/_15pxv"
@@ -233,7 +233,7 @@
                 android:layout_marginStart="@dimen/_21pxh"
                 android:layout_marginTop="@dimen/_17pxv"
                 android:layout_width="match_parent"
-                android:orientation="horizontal" style="@style/groupStylewhite_1">
+                android:orientation="horizontal" style="@style/groupStylewhite_2">
                 <FrameLayout android:id="@+id/frameStackfacebook"
                     android:layout_height="@dimen/_30pxv"
                     android:layout_marginBottom="@dimen/_12pxv"
@@ -276,7 +276,7 @@
                 android:lineSpacingExtra="@dimen/_5pxh"
                 android:singleLine="true"
                 android:text="@{signUpVM.signUpModel.txtConfirmation}"
-                style="@style/txtAirbnbCerealAppmedium15_1" tools:text="@string/msg_already_have_an"/>
+                style="@style/txtAirbnbCerealAppmedium15_2" tools:text="@string/msg_already_have_an"/>
         </LinearLayout>
     </FrameLayout>
 </layout>

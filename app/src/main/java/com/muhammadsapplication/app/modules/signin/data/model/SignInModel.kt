@@ -8,7 +8,7 @@ data class SignInModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtfestive: String? = MyApp.getInstance().resources.getString(R.string.lbl_festive)
+  var txtFastPass: String? = MyApp.getInstance().resources.getString(R.string.lbl_fastpass)
   ,
   /**
    * TODO Replace with dynamic value

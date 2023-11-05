@@ -13,7 +13,7 @@ import com.google.android.gms.auth.api.phone.SmsRetriever
 import com.muhammadsapplication.app.R
 import com.muhammadsapplication.app.appcomponents.base.BaseActivity
 import com.muhammadsapplication.app.databinding.ActivityPaymentPortalBinding
-import com.muhammadsapplication.app.modules.onlineticket.ui.OnlineTicketActivity
+import com.muhammadsapplication.app.modules.onlineticketactivity.ui.OnlineticketactivityDialog
 import com.muhammadsapplication.app.modules.paymentportal.`data`.model.PaymentPortalRowModel
 import com.muhammadsapplication.app.modules.paymentportal.`data`.viewmodel.PaymentPortalVM
 import java.util.regex.Matcher
@@ -68,8 +68,8 @@ class PaymentPortalActivity :
 
     override fun setUpClicks(): Unit {
       binding.btnConfirm.setOnClickListener {
-        val destIntent = OnlineTicketActivity.getIntent(this, null)
-        startActivity(destIntent)
+        val destFragment = OnlineticketactivityDialog.getInstance(null)
+        destFragment.show(this.supportFragmentManager, OnlineticketactivityDialog.TAG)
       }
     }
 
